@@ -1,4 +1,4 @@
-# dicebag-godot
+#  dicebag-godot
 
 A Godot port of [Dicebag](https://github.com/8bitskull/dicebag) by [8bitskull](https://github.com/8bitskull), originally in Lua for Defold.
 
@@ -6,10 +6,13 @@ Dicebag is an addon of probability functions designed specifically for games.
 Inspired by this excellent blog post: https://www.redblobgames.com/articles/probability/damage-rolls.html
 
 ## Installation
-You can add Dicebag to your own projects by using the built-in Asset Library.
-Once it is added to your project, you need to add an instance of Dicebag to your script, before the `_ready()` function:
+You can add Dicebag to your own projects using the built-in [Asset Library](https://docs.godotengine.org/en/latest/community/asset_library/using_assetlib.html#in-the-editor).
+Once it is added to your project, you need to add an instance of Dicebag to the script you wish to use it in, before the `_ready()` function:
 ```
 onready var dicebag = Dicebag.new()
+
+func _ready():
+...
 ```
 Then you can use Dicebag functions, for example:
 ```
