@@ -6,7 +6,8 @@ Dicebag is an addon of probability functions designed specifically for games.
 Inspired by this excellent blog post: https://www.redblobgames.com/articles/probability/damage-rolls.html
 
 ## Other ports
-[dicebag-csharp](https://github.com/Efmi/dicebag-csharp) by [Efmi](https://github.com/Efmi)
+[dicebag-csharp](https://github.com/Efmi/dicebag-csharp) by [Efmi](https://github.com/Efmi)  
+[Godot 4 port](https://github.com/Cablefish1/dicebag-godot-4) by [Cablefish1](https://github.com/Cablefish1)
 
 ## Installation
 You can add Dicebag to your own projects using the built-in [Asset Library](https://docs.godotengine.org/en/latest/community/asset_library/using_assetlib.html#in-the-editor).
